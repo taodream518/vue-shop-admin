@@ -4,7 +4,7 @@ import iview from "iview";
 import Storage from "../store/storage";
 import Routers from "../router";
 
-axios.defaults.baseURL = "http://api.myvue.com/admin/";
+axios.defaults.baseURL = "http://api.okey.net.cn/admin/";
 axios.defaults.timeout = 50000;
 axios.defaults.headers["Content-Type"] =
   "application/x-www-form-urlencoded;charset=UTF-8";
